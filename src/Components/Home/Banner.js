@@ -8,7 +8,7 @@ const Banner = () => {
             <div class='hero h-screen lg:h-[70vh] relative bg-neutral'>
                 <div class='hero-content flex-col lg:flex-row'>
                     <div className='flex justify-center'>
-                        <div className=''>
+                        <div className='hidden lg:block'>
                             <img className='mt-[-110px] ml-10' src={light} alt='light images' />
                         </div>
                         <div className='text-justify'>

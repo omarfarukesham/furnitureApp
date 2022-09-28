@@ -1,11 +1,11 @@
 import React from 'react';
 import p from '../../images/p.png'
-import p1 from '../../images/p1.png'
+import p1 from '../../images/p11.png'
 import p2 from '../../images/p2.png'
 import p3 from '../../images/p3.png'
 const Features = () => {
     return (
-        <div className='my-5'>
+        <div className='my-12'>
             <h1 className='text-center text-3xl text-accent my-5'>Feature Products</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mx-12'>
 
@@ -29,11 +29,12 @@ const Features = () => {
                         <a className='text-accent mx-2 mt-2'><i class="fa-solid fa-cart-arrow-down"></i></a>
                         <a className='text-accent mt-2'><i class="fa-brands fa-searchengin"></i></a>
                     </div>
-                    <img src={p1} alt="product" className="rounded-xl ml-10 text-center h-48 w-48 p-5 " />
-                    <div className="card-actions flex justify-center p-2">
-                        <button className="btn btn-primary btn-sm text-white">Details</button>
+                    <div>
+                        <img src={p1} alt="product" className="h-48 w-48 mx-5" />
+                        <button className="btn btn-primary btn-sm text-white my-3">Details</button>
                     </div>
-                    <div className="card-body items-center text-center bg-accent text-white 0">
+
+                    <div className="card-body items-center text-center bg-accent text-white ">
                         <h2 className="card-title">Cantilever Chair</h2>
                         <div className='flex justify-center'>
                             <a className='text-bold text-green-400 text-center  text-4xl'>-</a>

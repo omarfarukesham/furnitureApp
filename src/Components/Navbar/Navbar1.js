@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar1 = () => {
     return (
-        <>
+        <div className='hidden lg:block'>
             <div className="flex justify-around bg-violet-500 h-[44px]">
                 <div className="flex justify-end items-center">
                     <p className="normal-case text-white mx-0"><i class="fa-solid fa-at"></i> omar@gmail.com</p>
@@ -29,7 +29,7 @@ const Navbar1 = () => {
                     </ul>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 
